@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage reports, and test results
+*.test
+*.out
+*.cover
+
+# Dependency directories (vendor folder can be used if vendoring is enabled)
+vendor/
+
+# Build output
+/build/
+*.o
+*.a
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Go workspace files
+go.sum
