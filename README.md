@@ -67,15 +67,19 @@ client/
 
 2. **Install dependencies**:
 
-   `go mod tidy`
+   ```bash
+   go mod tidy
+   ```
 
 3. **Set up the database**:
 
-   - Import the provided database backup file to the PostgreSQL database.
+   - Import the provided database backup file `pizza_shop_db` to the PostgreSQL database.
 
 4. **Run the backend server**:
 
-   `.\main.exe`
+   ```bash
+   .\main.exe
+   ```
 
    The server will start on `http://localhost:8080`.
 
@@ -89,11 +93,15 @@ client/
 
 2. **Install dependencies**:
 
-   `npm install`
+   ```bash
+   npm install
+   ```
 
 3. **Run the development server**:
 
-   `npm run dev`
+   ```bash
+   npm run dev
+   ```
 
    The app will start on `http://localhost:5173`
 
